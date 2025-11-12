@@ -1,3 +1,4 @@
+
         document.addEventListener("DOMContentLoaded", function () {
         const mobileMenuButton = document.getElementById("mobile-menu-button");
         const mobileMenu = document.getElementById("mobile-menu");
@@ -59,3 +60,19 @@
         if (carousels.length > 0) {
         }
       }
+ 
+  // FAQS 
+ function faqs_Toggle(button) {
+    const content = button.nextElementSibling;
+    const icon = button.querySelector(".icon");
+    
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      icon.textContent = "+";
+    } else {
+      content.style.display = "block";
+      icon.textContent = "-";
+    }
+  }
+ 
+    

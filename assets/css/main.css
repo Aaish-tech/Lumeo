@@ -11,9 +11,15 @@ body {
   color: gray;
 }
 
-section {
-  padding: 4rem 1rem;
+#team-card {
+  transition: all 0.3s ease;
 }
+
+section {
+  padding: 1rem 1rem;
+}
+
+
 .hamburger-line {
   transition: all 0.3s ease;
 }
