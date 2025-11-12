@@ -75,4 +75,9 @@
     }
   }
  
+    // Index.html CTA button function
+        const ctnButton = document.querySelector(".ctn-button").addEventListener("click", () => {
+            window.location.href = "testimonials.html";
+            alert("CTN Clicked")
+        });
     

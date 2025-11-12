@@ -70,3 +70,100 @@ section {
     display: none !important;
   }
 }
+
+
+/* INDEX PAGE CSS */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 80vh;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .hero-content p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .hero-content button {
+    font-size: 0.9rem;
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .hero-content button {
+    font-size: 0.7rem;
+    width: fit-content;
+    height: fit-content;
+
+  }
+}
+
+/* TESTOMONIAL PAGE CSS */
+#testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* For small devices: 1 per row */
+@media (max-width: 640px) {
+  #testimonial-container>div {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* For medium screens: 2 per row */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #testimonial-container>div {
+    width: 45%;
+  }
+}
+
+/* For large screens: 3 per row */
+@media (min-width: 1025px) {
+  #testimonial-container>div {
+    width: 30%;
+  }
+}
+
+/* SERVICE PAGE CSS */
+
+@media (max-width: 640px) {
+  .service-card img {
+    height: 160px;
+  }
+
+  .service-card h3 {
+    font-size: 1.1rem;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+  }
+}
